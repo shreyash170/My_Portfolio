@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* :root {
+  --baseColor: #F5f5f5;
+  --whiteColor: #FFFFFF;
+  --primaryColor: #008ABC;
+
+  --textBlackPrimary: rgba(0,0,0,0.87);
+  --textBlackLight: rgba(0,0,0,0.54);
+  --textBlackDisable: rgba(0,0,0,0.38);
+
+}
