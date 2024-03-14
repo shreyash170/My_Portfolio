@@ -1,10 +1,11 @@
 import styles from './App.css';
+import Home from './Component/Home';
 
 function App() {
   return (
-   <div className="WebBG">
-    Hello Worldbdshbhjcbc!
-    </div>
+   <>
+   <Home/>
+    </>
   );
 }
 
