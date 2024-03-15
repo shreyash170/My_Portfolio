@@ -1,0 +1,89 @@
+.skillsSection {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    position: relative;
+}
+
+.cntnrDetails {
+    padding: 1.5rem;
+    /* flex-grow: 1; */
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    width: 49%;
+    margin-bottom: 2rem;
+    /* flex-basis: 45%; */
+    /* gap: 4rem; */
+    /* flex: none; */
+    /* justify-content: space-around; */
+}
+
+.SkillDetailContainer {
+    display: flex;
+    /* gap: 2rem; */
+    height: 50%;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 50%;
+    justify-content: space-between;
+
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.textP1 {
+    text-align: center;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.skillsSubTitle {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+/* .exSkillsDetailsCntnr{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+.articleContainer {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-between;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    width: 10.2rem;
+}
+.skillExp h3{
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+.skillExp p{
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: 600;
+}
