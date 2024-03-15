@@ -1,0 +1,72 @@
+.aboutSection{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    position: relative;
+}
+.aboutContainerF{
+    display: flex;
+    gap: 4rem;
+    height: 80%;
+}
+.textP1{
+    text-align: center;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+}
+.detailsContainer p{
+    opacity: 0.5;
+    font-weight: 600;
+    font-size: 20px;
+}
+.aboutTitle{
+    font-size: 3rem;
+    text-align: center;
+}
+.aboutPicCntnr{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+.icon{
+    cursor: pointer;
+    height: 2.2rem;
+}
+.aboutDetailsCntnr{
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutContainers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.aboutDetailsCntnr, .aboutContainers{
+    display: flex;
+}
+.aboutPic{
+    border-radius: 2rem;
+}
+.detailsContainer{
+    padding: 1.5rem;
+    flex-grow: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+}
+.aboutPicCntnr{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+.textContainer p{
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+}

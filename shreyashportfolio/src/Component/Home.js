@@ -31,7 +31,7 @@ function Home() {
                 <span></span>
             </div>
             <div className = {`menuLinks ${isOpen ? 'open' : ''}`}>
-                <li><a href = '/' onClick={toggleMenu}>About</a></li>
+                <li><a href = '#about' onClick={toggleMenu}>About</a></li>
                 <li><a href = '/' onClick={toggleMenu}>Experience</a></li>
                 <li><a href = '/' onClick={toggleMenu}>Projects</a></li>
                 <li><a href = '/' onClick={toggleMenu}>Contact</a></li>

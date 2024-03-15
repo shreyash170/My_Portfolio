@@ -7,21 +7,26 @@
  .navLinks{
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    opacity: 0.9;
  }
  a{
-    color: black;
+    color: grey;
     text-decoration: none;
     text-decoration-color:white ;
+    font-weight: 600;
+    font-size: 1.5rem;
  }
  a:hover{
-    color: grey;
+    color: black;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(117, 117, 117);
+    text-decoration-color: rgb(1, 1, 1);
  }
  .myName{
     font-size: 2rem;
+    font-weight: 600;
+    opacity: 0.7;
  }
  .myName:hover{
     cursor: default;
