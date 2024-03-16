@@ -6,7 +6,7 @@ import linkedinIcon from "../Assests/linkedin.png";
 function Contact(){
     return(
         <>
-        <div className="contact">
+        <div className="contact" id="contact">
             <p>Get in touch</p>
             <h1>Contact Me</h1>
             <div className="contactInfoUpper">

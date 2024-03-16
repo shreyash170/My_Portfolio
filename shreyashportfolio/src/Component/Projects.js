@@ -8,7 +8,7 @@ import ProjectContainer from "./ProjectContainer";
 function Projects() {
   return (
     <>
-      <div className="projects">
+      <div className="projects" id="project">
         <p className="textP1">Browse My Recent</p>
         <h1 className="title">Projects</h1>
         <div className="expDetailsContainer">

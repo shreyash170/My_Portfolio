@@ -19,7 +19,7 @@ function Skills() {
   ];
   return (
     <>
-      <div className="skillsSection">
+      <div className="skillsSection" id="skills">
         <p className="textP1">Explore My</p>
         <h1 className="title">Skills</h1>
         {/* <div className="exSkillsDetailsCntnr"> */}

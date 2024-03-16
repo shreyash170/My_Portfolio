@@ -1,18 +1,18 @@
 import React from "react";
 import "../Styles/About.css";
-import aboutPic from "../Assests/about-pic.png";
 import experiencePic from "../Assests/experience.png";
 import eductaionPic from "../Assests/education.png";
+import coderPic from "../Assests/Programming-amico.png";
 
 function About() {
   return (
     <>
-      <div className="aboutSection">
+      <div className="aboutSection" id="about">
         <p className="textP1">Get To Know More</p>
         <h1 className="aboutTitle">About Me</h1>
         <div className="aboutContainerF">
           <div className="aboutPicCntnr">
-            <img src={aboutPic} alt="Profile" className="aboutPic" />
+            <img src={coderPic} alt="Profile" className="aboutPic" />
           </div>
           <div className="aboutDetailsCntnr">
             <div className="aboutContainers">

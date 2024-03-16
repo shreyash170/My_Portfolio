@@ -1,4 +1,4 @@
-.profile{
+.profile {
     padding-top: 4vh;
     height: 96vh;
     margin: 0 10rem;
@@ -9,49 +9,59 @@
     gap: 5rem;
     height: 80vh;
 }
-.sectionPic{
+
+.sectionPic {
     display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
 }
-.sectionText{
+
+.sectionText {
     align-self: center;
     text-align: center;
 }
-.sectionText p{
+
+.sectionText p {
     font-weight: 600;
 }
-.textP1{
+
+.textP1 {
     text-align: center;
     opacity: 0.7;
     font-size: 20px;
 }
-.textP2{
+
+.textP2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
     opacity: 0.6;
 }
-.sectionTitle{
+
+.sectionTitle {
     font-size: 3rem;
     text-align: center;
 }
-.socialCntnr{
+
+.socialCntnr {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
 }
-.icon{
+
+.icon {
     cursor: pointer;
     height: 2.2rem;
 }
-.btnContainer{
-   display: flex;
-   justify-content: center;
-   gap: 1rem;  
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
-.btn{
+
+.btn {
     font-weight: 600;
     transition: all 300ms ease;
     padding: 1rem;
@@ -59,25 +69,36 @@
     border-radius: 2rem;
     font-size: 0.9rem;
 }
-.btnColor1, .btnColor2{
+
+.btnColor1,
+.btnColor2 {
     border: rgb(53, 53, 53) 0.1rem solid;
 }
-.btnColor1:hover, .btnColor2:hover{
+
+.btnColor1:hover,
+.btnColor2:hover {
     cursor: pointer;
 }
-.btnColor1:hover, .btnColor2:hover{
+
+.btnColor1:hover,
+.btnColor2:hover {
     cursor: pointer;
 }
-.btnColor1, .btnColor2:hover{
-    background: rgb(53, 53, 53) ;
+
+.btnColor1,
+.btnColor2:hover {
+    background: rgb(53, 53, 53);
     color: white;
 }
-.btnColor1:hover{
-    background: rgb(0,0,0,);
+
+.btnColor1:hover {
+    background: rgb(0, 0, 0, );
 }
-.btnColor2{
+
+.btnColor2 {
     background: none;
 }
-.btnColor2:hover{
-    border: rgb(255,255,255) 0.1rem solid;
+
+.btnColor2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
 }

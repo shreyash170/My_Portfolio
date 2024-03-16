@@ -23,14 +23,15 @@ a:hover {
    color: black;
    text-decoration: underline;
    text-underline-offset: 1rem;
-   text-decoration-color: rrgb(27,27,27);
+   text-decoration-color: rgb(27,27,27);
 }
 
 .myName {
-   font-size: 2rem;
+   font-size: 3rem;
    font-weight: 600;
    opacity: 0.9;
    color: rgb(27,27,27);
+   font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
 .myName:hover {
