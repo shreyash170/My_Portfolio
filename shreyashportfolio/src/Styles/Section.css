@@ -57,6 +57,7 @@
     padding: 1rem;
     width: 9rem;
     border-radius: 2rem;
+    font-size: 0.9rem;
 }
 .btnColor1, .btnColor2{
     border: rgb(53, 53, 53) 0.1rem solid;

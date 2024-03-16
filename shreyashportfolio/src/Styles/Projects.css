@@ -65,8 +65,9 @@
 }
 .projectTitle{
     margin: 1rem;
-    color: black;
+    color: rgb(27,27,27);
 }
 .projectBtn{
-    color: black;
+    color: rgb(27,27,27);
+    font-size: 0.9rem;
 }

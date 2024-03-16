@@ -15,10 +15,10 @@ function Home() {
             <div className = 'myName'>Roronoa Zoro </div>
             <div className = ''>
                 <ul className = 'flexRow navLinks'>
-                    <li><a href = '/'>About</a></li>
-                    <li><a href = '/'>Skills</a></li>
-                    <li><a href = '/'>Projects</a></li>
-                    <li><a href = '/'>Contact</a></li>
+                    <li><a href = '/'>ABOUT</a></li>
+                    <li><a href = '/'>SKILLS</a></li>
+                    <li><a href = '/'>PROJECTS</a></li>
+                    <li><a href = '/'>CONTACT</a></li>
                 </ul>
             </div>
         </div>
