@@ -1,0 +1,72 @@
+.projects{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    position: relative;
+}
+.textP1 {
+    text-align: center;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+}
+.projectAboutContainer{
+    gap: 2rem;
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.expDetailsContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerDetails{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.projectContainer{
+    display: flex;
+    text-align: intial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.projectSubtitle{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+.colorContainer{
+    border-color: rgb(163,163,163);
+    background: rgb(250,250,250);
+}
+.projectImg{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+.projectTitle{
+    margin: 1rem;
+    color: black;
+}
+.projectBtn{
+    color: black;
+}
