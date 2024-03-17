@@ -23,14 +23,14 @@ a:hover {
    color: black;
    text-decoration: underline;
    text-underline-offset: 1rem;
-   text-decoration-color: rgb(27,27,27);
+   text-decoration-color: rgb(27, 27, 27);
 }
 
 .myName {
    font-size: 3rem;
    font-weight: 600;
    opacity: 0.9;
-   color: rgb(27,27,27);
+   color: rgb(27, 27, 27);
    font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
@@ -87,9 +87,10 @@ a:hover {
    padding: 10px;
    text-align: center;
    font-size: 1.4rem;
-   color: rgb(27,27,27);
+   color: rgb(27, 27, 27);
    text-decoration: none;
    transition: all 0.3 ease-in-out;
+   opacity: 0.8;
 }
 
 .menuLinks li {
@@ -122,21 +123,4 @@ a:hover {
 
 .hamburgerIcon span:first-child {
    transform: none;
-}
-
-
-
-
-
-
-
-/* Media Query */
-@media screen and (max-width: 1200px) {
-   .hamburgerNav {
-      display: flex;
-   }
-
-   .desktopNav {
-      display: none;
-   }
 }

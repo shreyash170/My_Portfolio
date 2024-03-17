@@ -33,7 +33,7 @@ function Home() {
       <div
         className={`flexRow hamburgerFix hamburgerNav ${isOpen ? "open" : ""}`}
       >
-        <div className="myName">Roronoa Zoro </div>
+        <div className="myName">MyProtfolio </div>
         <div className="hamburgerMenu">
           <div
             className={`hamburgerIcon ${isOpen ? "open" : ""}`}
@@ -46,22 +46,22 @@ function Home() {
           <div className={`menuLinks ${isOpen ? "open" : ""}`}>
             <li>
               <Link to="#about" onClick={toggleMenu}>
-                About
+                ABOUT
               </Link>
             </li>
             <li>
               <Link to="#skills" onClick={toggleMenu}>
-                Skills
+                SKILLS
               </Link>
             </li>
             <li>
               <Link to="#project" onClick={toggleMenu}>
-                Projects
+                PROJECTS
               </Link>
             </li>
             <li>
               <Link to="#contact" onClick={toggleMenu}>
-                Contact
+                CONTACT
               </Link>
             </li>
           </div>

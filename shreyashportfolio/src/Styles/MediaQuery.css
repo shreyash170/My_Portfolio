@@ -1,0 +1,147 @@
+/* Media Query */
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .aboutContainers,
+    .projectAboutContainer,
+    .SkillDetailContainer {
+        flex-wrap: wrap;
+    }
+
+    #contact,
+    #projects {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hamburgerNav {
+        display: flex;
+    }
+
+    .desktopNav {
+        display: none;
+    }
+
+    #skills,
+    .exSkillsDetailsCntnr {
+        margin-top: 2rem;
+    }
+
+    .profile,
+    .aboutContainerF {
+        display: block;
+    }
+
+    #about,
+    #skills,
+    #profile,
+    #contact,
+    #project,
+    .aboutContainerF {
+        height: fit-content;
+    }
+
+    #about,
+    #skills,
+    #profile,
+    #contact,
+    #project {
+        margin: 0 5%;
+    }
+
+    .sectionPic,
+    .aboutPicCntnr {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .aboutContainers,
+    .projectAboutContainer,
+    .SkillDetailContainer {
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #contact,
+    footer {
+        height: 40vh;
+    }
+
+    .profile {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    article {
+        font-size: 1rem;
+    }
+
+    footer .navLinkContainer {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .aboutContainers,
+    .projectAboutContainer,
+    .SkillDetailContainer,
+    .contactInfoUpper,
+    .btnContainer {
+        flex-wrap: wrap;
+    }
+
+    .contactInfo {
+        margin: 0;
+    }
+
+    .contactInfo p,
+    .navLinkContainer li a {
+        font-size: 1rem;
+    }
+
+    .skillsSubTitle,
+    .projectSubtitle {
+        font-size: 1.25rem;
+    }
+
+    .myName {
+        font-size: 2rem;
+        font-weight: 600;
+        opacity: 0.8;
+    }
+
+    .navLinkContainer,
+    .footerLink {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .sectionPic,
+    .aboutPicCntnr {
+        width: auto;
+        height: 50vw;
+        justify-content: center;
+    }
+
+    .textP2 {
+        font-size: 1.25rem;
+    }
+
+    .sectionTitle,
+    .aboutTitle,
+    .title {
+        font-size: 2rem;
+    }
+
+    .textContainer {
+        text-align: justify;
+    }
+}

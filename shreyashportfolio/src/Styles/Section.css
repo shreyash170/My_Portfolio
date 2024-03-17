@@ -1,19 +1,18 @@
 .profile {
     padding-top: 4vh;
     height: 96vh;
-    margin: 0 10rem;
+    /* margin: 0 10rem; */
     box-sizing: border-box;
     min-height: fit-content;
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
 }
 
 .sectionPic {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 25rem;
+    width: 25rem;
     margin: auto 0;
 }
 

@@ -9,7 +9,6 @@ function Skills() {
     ["Native iOS", "Experienced"],
     ["JavaScript", "Experienced"],
     ["React Native", "Intermediate"],
-    ["XCode", "Experienced"],
   ];
   const skillList2 = [
     ["HTML", "Experienced"],
@@ -22,16 +21,17 @@ function Skills() {
       <div className="skillsSection" id="skills">
         <p className="textP1">Explore My</p>
         <h1 className="title">Skills</h1>
-        {/* <div className="exSkillsDetailsCntnr"> */}
-        <div className="SkillDetailContainer">
-          <ArticleContainer
-            containerHeading="Mobile Development"
-            skillList={skillList1}
-          />
-          <ArticleContainer
-            containerHeading="Frontend Development"
-            skillList={skillList2}
-          />
+        <div className="exSkillsDetailsCntnr">
+          <div className="SkillDetailContainer">
+            <ArticleContainer
+              containerHeading="Mobile Development"
+              skillList={skillList1}
+            />
+            <ArticleContainer
+              containerHeading="Frontend Development"
+              skillList={skillList2}
+            />
+          </div>
         </div>
       </div>
     </>
