@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/Skills.css";
-import checkMark from "../Assests/checkmark.png";
 import ArticleContainer from "./ArticleContainer";
 
 function Skills() {
