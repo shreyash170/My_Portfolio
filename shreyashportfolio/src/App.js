@@ -5,13 +5,11 @@ import Skills from "./Component/Skills";
 import Projects from "./Component/Projects";
 import Contact from "./Component/Contact";
 import Footer from "./Component/Footer";
-import {HashRouter, Routes, Route} from "react-router-dom";
 import "./Styles/MediaQuery.css";
 
 function App() {
   return (
     <>
-      <HashRouter basename="/">
         <Home />
         <Section />
         <About />
@@ -19,7 +17,6 @@ function App() {
         <Projects />
         <Contact />
         <Footer />
-      </HashRouter>
     </>
   );
 }
