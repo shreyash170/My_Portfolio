@@ -11,7 +11,7 @@ import "./Styles/MediaQuery.css";
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <Home />
         <Section />
         <About />
@@ -19,7 +19,7 @@ function App() {
         <Projects />
         <Contact />
         <Footer />
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
