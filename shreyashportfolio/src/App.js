@@ -5,7 +5,7 @@ import Skills from "./Component/Skills";
 import Projects from "./Component/Projects";
 import Contact from "./Component/Contact";
 import Footer from "./Component/Footer";
-import { BrowserRouter } from "react-router-dom/BrowserRouter";
+import { BrowserRouter } from "react-router-dom";
 import "./Styles/MediaQuery.css";
 
 function App() {
