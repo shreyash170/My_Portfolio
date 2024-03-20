@@ -5,14 +5,13 @@ import Skills from "./Component/Skills";
 import Projects from "./Component/Projects";
 import Contact from "./Component/Contact";
 import Footer from "./Component/Footer";
-import { BrowserRouter } from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 import "./Styles/MediaQuery.css";
 
 function App() {
   return (
     <>
-    <div className="section-Container">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Home />
         <Section />
         <About />
@@ -21,7 +20,6 @@ function App() {
         <Contact />
         <Footer />
       </BrowserRouter>
-      </div>
     </>
   );
 }

@@ -2,7 +2,7 @@
   "homepage": "https://github.com/shreyash170/My_Portfolio",
   "name": "shreyashportfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fontsource/outfit": "^5.0.12",
     "@fontsource/roboto": "^5.0.12",
