@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shreyash170/My_Portfolio/static/css/main.b569927e.css",
-    "main.js": "/shreyash170/My_Portfolio/static/js/main.9eaa7877.js",
+    "main.js": "/shreyash170/My_Portfolio/static/js/main.83f0a5ad.js",
     "static/js/453.59c5567d.chunk.js": "/shreyash170/My_Portfolio/static/js/453.59c5567d.chunk.js",
     "static/media/project-3.png": "/shreyash170/My_Portfolio/static/media/project-3.d5bf2eac8c8937a85bc3.png",
     "static/media/Programming-amico.png": "/shreyash170/My_Portfolio/static/media/Programming-amico.03da19eb16555c5dc3e3.png",
@@ -32,11 +32,11 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/shreyash170/My_Portfolio/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "index.html": "/shreyash170/My_Portfolio/index.html",
     "main.b569927e.css.map": "/shreyash170/My_Portfolio/static/css/main.b569927e.css.map",
-    "main.9eaa7877.js.map": "/shreyash170/My_Portfolio/static/js/main.9eaa7877.js.map",
+    "main.83f0a5ad.js.map": "/shreyash170/My_Portfolio/static/js/main.83f0a5ad.js.map",
     "453.59c5567d.chunk.js.map": "/shreyash170/My_Portfolio/static/js/453.59c5567d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b569927e.css",
-    "static/js/main.9eaa7877.js"
+    "static/js/main.83f0a5ad.js"
   ]
 }
