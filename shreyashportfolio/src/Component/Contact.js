@@ -13,13 +13,13 @@ function Contact() {
           <div className="contactInfo">
             <img src={emailIcon} alt="" className="contactIcon emailIcon" />
             <p>
-              <a href="mailto:emaple@gmail.com">Emaple@email.com</a>
+              <a href="mailto:shreyashgupta.170@gmail.com">Shoot me an email</a>
             </p>
           </div>
           <div className="contactInfo">
             <img src={linkedinIcon} alt="" className="contactIcon" />
             <p>
-              <a href="https://www.linkedin.com/" target="_blank">
+              <a href="https://www.linkedin.com/in/shreyash-gupta-a839a4192/" target="_blank">
                 Linkedin
               </a>
             </p>

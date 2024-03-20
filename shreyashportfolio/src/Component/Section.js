@@ -26,10 +26,10 @@ function Section() {
             </Link>
           </diV>
           <div className="socialCntnr">
-            <a href="https://www.linkedin.com/" target="_blank">
+            <a href="https://www.linkedin.com/in/shreyash-gupta-a839a4192/" target="_blank">
               <img src={linkedin} alt="My Linkedin profile" className="icon" />
             </a>
-            <a href="https://www.github.com/" target="_blank">
+            <a href="https://github.com/shreyash170" target="_blank">
               <img src={github} alt="My Github profile" className="icon" />
             </a>
           </div>
