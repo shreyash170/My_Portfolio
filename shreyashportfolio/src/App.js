@@ -6,10 +6,12 @@ import Projects from "./Component/Projects";
 import Contact from "./Component/Contact";
 import Footer from "./Component/Footer";
 import "./Styles/MediaQuery.css";
+import {HashRouter} from "react-router-dom";
 
 function App() {
   return (
     <>
+      <HashRouter>
         <Home />
         <Section />
         <About />
@@ -17,6 +19,7 @@ function App() {
         <Projects />
         <Contact />
         <Footer />
+      </HashRouter>
     </>
   );
 }
