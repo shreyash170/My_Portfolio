@@ -11,7 +11,7 @@ import "./Styles/MediaQuery.css";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/My_Portfolio">
         <Home />
         <Section />
         <About />
