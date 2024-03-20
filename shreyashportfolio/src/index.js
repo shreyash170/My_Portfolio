@@ -9,7 +9,7 @@ import "@fontsource/roboto";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter basename="/">
+  <HashRouter>
   <React.StrictMode>
     <App />
   </React.StrictMode>
